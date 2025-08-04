@@ -1,5 +1,4 @@
 from torch import nn
-from transformers import BertModel, BertTokenizer
 
 class MovieEncoder(nn.Module):
     def __init__(self, movie_text_dim=768):
